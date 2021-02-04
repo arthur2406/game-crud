@@ -1,7 +1,7 @@
 # Full CRUD REST API using Node.js with no framework
 
+## Routes
 ```
-# Routes
 GET      /api/games/:ASIN
 PUT      /api/games/:ASIN
 DELETE   /api/games/:ASIN
@@ -9,8 +9,8 @@ DELETE   /api/games/:ASIN
 
 ## Usage
 
+### Run in production
 ```
-# Run in production
 npm start
 yarn start
 ```
