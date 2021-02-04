@@ -2,7 +2,7 @@
 
 const https = require('https');
 const http = require('http');
-const { saveAndGroupGames } = require('./gameModel');
+const { saveAndGroupGames } = require('./models/gameModel');
 
 const { getGamesApi, updateGamesApi, deleteGamesApi } = require('./controllers/gamesController');
 

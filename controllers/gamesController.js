@@ -1,4 +1,4 @@
-const { findByAsin, updateByAsin, removeByAsin } = require('../gameModel');
+const { findByAsin, updateByAsin, removeByAsin } = require('../models/gameModel');
 const { getPostData } = require('../utils'); 
 
 // @desc Get all games by ASIN
